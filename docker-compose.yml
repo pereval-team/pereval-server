@@ -1,0 +1,71 @@
+version: '2'
+services:
+
+  postgres:
+    restart: on-failure:10
+    image: postgres
+    expose:
+      - "5432"
+    environment:
+      - POSTGRES_DB=intriguedb
+    volumes:
+      - "db-data:/var/lib/postgresql/data"
+
+  redis:
+    image: redis
+    expose:
+      - "6379"
+
+###########
+
+  intrigue-web:
+    build: https://github.com/pereval-team/intrigue-core.git
+    ports:
+      - "83:7777"
+    links:
+      - redis
+      - postgres
+    environment:
+      - INTRIGUE_ENV=docker
+      - REDIS_URI=redis://redis:6379/
+
+#  intrigue:
+#    build:
+#      context: ./intrigue-core
+#    ports:
+#      - "83:7777"
+
+  dashboard:
+     build: 
+       context: ./pereval-dash
+     ports:
+       - "86:9090" 
+
+  cyberchef:
+    image: mpepping/cyberchef
+    ports:
+      - "82:8000"  
+
+  openwebspider:
+    image: pantyusha/openwebspider
+    ports:
+      - "81:9999"
+
+#  spiderfoot:
+#    build: https://github.com/smicallef/spiderfoot.git
+#    ports:
+#      - "85:8080"
+
+  wisemapping:
+    image: wisemapping/webapp
+    ports:
+      - "84:8000"
+
+  etherpad:
+    build:
+      context: ./etherpad-lite
+    ports:
+      - "88:9001"
+
+volumes:
+  db-data:
