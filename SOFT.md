@@ -22,8 +22,6 @@
 
   - [Файлы](#Файлы)
   
-  - [Ссылки](#Ссылки)
-
   - [Веб-контент](#Веб-контент)
 
 - [Централизация](#Централизация)
@@ -34,25 +32,25 @@
 
 К сервисам для OSINT (Open source intelligence, разведка на основе открытых источников) отнесены веб-приложения, позволяющие искать информацию через API других сервисов, путём сканирования URL и IP, а также веб-приложения для анализа данных.
 
+#### Анализ
+
+- [CyberChef](https://github.com/gchq/CyberChef) ([демо](https://gchq.github.io/CyberChef/)) - визуальный редактор для анализа данных, созданный сотрудниками GCHQ — главной службы обеспечения информационной безопасности Великобритании. Позволяет обрабатывать и строки, и простым перетаскиванием открывать бинарные файлы, аналогично можно сохранять выходные данные.  Из операцияй доступны форматирование, шифрование, регулярные выражения, вычисление хешей, операции с публичным ключом и другое, все операции можно комбинировать.
+
 #### Поиск
 
 - [IVRE](https://github.com/cea-sec/ivre) ([офсайт](https://ivre.rocks/)) - фреймворк для разведки сетей, включает два модуля: один для пассивной (основанной на p0f или основанной на Bro) и второй для активной разведки (основывается на Nmap/ZMap). Возможен как запуск сканирования с клиентских/серверных машин, там и импорт готовых данных.
 
-- Spiderfoot
+- [Spiderfoot](https://github.com/smicallef/spiderfoot) ([офсайт](http://www.spiderfoot.net/)) - сервис для автоматизации OSINT по многим направлениям: IP, DNS, почтовые ящики, базы ИБ. Поддерживается получение данных из более чем 50 источников. Доступна функциональность визуализации результатов.
 
-- Intrigue
+- [Intrigue](https://github.com/intrigueio/intrigue-core) ([офсайт](https://intrigue.io/))
 
-- Openwebspider
-
-#### Анализ
-
-- [CyberChef](https://github.com/gchq/CyberChef) ([демо](https://gchq.github.io/CyberChef/)) - визуальный редактор для анализа данных, созданный сотрудниками GCHQ — главной службы обеспечения информационной безопасности Великобритании. Позволяет обрабатывать и строки, и простым перетаскиванием открывать бинарные файлы, аналогично можно сохранять выходные данные.  Из операцияй доступны форматирование, шифрование, регулярные выражения, вычисление хешей, операции с публичным ключом и другое, все операции можно комбинировать.
+- [Openwebspider](https://github.com/pereval-team/openwebspider) ([офсайт](http://www.openwebspider.org/))
 
 ### Записи
 
 #### Базы знаний
 
-- dokuwiki
+- [dokuwiki](https://github.com/splitbrain/dokuwiki) ([офсайт](https://www.dokuwiki.org/), [демо](https://www.dokuwiki.org/)) - простой, но достаточно мощный вики-движок, который может быть использован для создания любой документации. Для хранения страниц используются текстовые файлы, а не база данных, что обеспечивает минимальные требования (только PHP) и поддержку любых кодировок. 
 
 - XWiki
 
@@ -62,11 +60,11 @@
 
 - Hackerpad
 
-- Paperwork
+- [Paperwork](https://github.com/twostairs/paperwork) ([офсайт](http://paperwork.rocks/), [демо 1](https://oasis.sandstorm.io/appdemo/vxe8awcxvtj6yu0vgjpm1tsaeu7x8v8tfp71tyvnm6ykkephu9q0), [демо 2 - cloudron/cloudron](https://my-demo.cloudron.me/)) - сервис для хранения заметок, аналог Evernote, Microsoft OneNote, Google Keep.
 
 - CryptPad
 
-- Etherpad
+- [Etherpad](https://github.com/ether/etherpad-lite) ([офсайт](http://etherpad.org/), [демо](https://demo.sandstorm.io/appdemo/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60))
 
 #### Таблицы
 
@@ -82,15 +80,13 @@
 
 #### Файлы
 
-- Nextcloud
-
-- [Webrecorder](https://github.com/webrecorder/webrecorder) ([офсайт](https://webrecorder.io/), [демо](https://webrecorder.io/))
-
-#### Ссылки
-
-- wallabag
+- [Nextcloud](https://github.com/nextcloud/) ([офсайт](https://nextcloud.com/), [демо](https://demo.nextcloud.com/)) - актуальный полностью свободный форк популярного сервиса облачного хранения файлов ownCloud. 
 
 #### Веб-контент
+
+- [Webrecorder](https://github.com/webrecorder/webrecorder) ([офсайт](https://webrecorder.io/), [демо](https://webrecorder.io/)) - сервис для архивирования страниц со всем содержимым, поддерживающий перемещения по страницам и различные действия. За счёт использования отдельного сервера-прокси записываются все данные, проходящие через браузер. Доступен десктопный клиент для "воспроизведения" снимков.
+
+- [wallabag](https://github.com/wallabag/wallabag) ([офсайт](https://wallabag.org/en), [демо - admin/pass](https://www.softaculous.com/softaculous/demos/wallabag)) - удобный сервис для сохранения страниц для последующего чтения. Контент полностью копируется в базе сервиса вместе со стилями и скриптами.
 
 - Bookmarks
 
