@@ -52,17 +52,17 @@
 
 - [dokuwiki](https://github.com/splitbrain/dokuwiki) ([офсайт](https://www.dokuwiki.org/), [демо](https://www.dokuwiki.org/)) - простой, но достаточно мощный вики-движок, который может быть использован для создания любой документации. Для хранения страниц используются текстовые файлы, а не база данных, что обеспечивает минимальные требования (только PHP) и поддержку любых кодировок. 
 
-- XWiki
+- [XWiki](https://github.com/xwiki/xwiki-platform)
 
-- PmWiki
+- [PmWiki](https://github.com/svn2github/pmwiki/tree/master/trunk)
 
 #### Текст 
 
-- Hackerpad
+- [Hackpad](https://github.com/dropbox/hackpad) ([офсайт](https://hackpad.com/), [демо](https://hackpad.com/Hackpad-Media-Embed-Demo-oLn1PFq0H7P))
 
 - [Paperwork](https://github.com/twostairs/paperwork) ([офсайт](http://paperwork.rocks/), [демо 1](https://oasis.sandstorm.io/appdemo/vxe8awcxvtj6yu0vgjpm1tsaeu7x8v8tfp71tyvnm6ykkephu9q0), [демо 2 - cloudron/cloudron](https://my-demo.cloudron.me/)) - сервис для хранения заметок, аналог Evernote, Microsoft OneNote, Google Keep.
 
-- CryptPad
+- [CryptPad](https://github.com/xwiki-labs/cryptpad) ([офсайт](http://cryptpad.fr/), [демо](https://cryptpad.fr/pad/)) - сервис для хранения и совместного редактирования текста, программного кода, создание опросников, презентаций, досок для рисования. Возможно создавать ссылки только на просмотр. В основе используется технология блокчейна.
 
 - [Etherpad](https://github.com/ether/etherpad-lite) ([офсайт](http://etherpad.org/), [демо](https://demo.sandstorm.io/appdemo/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60))
 
@@ -70,7 +70,7 @@
 
 - [EtherCalc](https://github.com/audreyt/ethercalc) ([офсайт](https://ethercalc.net/), [демо](https://ethercalc.org/_new))
 
-- Ethersheets
+- [Ethersheet](https://github.com/ethersheet-collective/EtherSheet) ([офсайт](https://ethersheet.org/))
 
 #### Схемы
 
@@ -88,7 +88,7 @@
 
 - [wallabag](https://github.com/wallabag/wallabag) ([офсайт](https://wallabag.org/en), [демо - admin/pass](https://www.softaculous.com/softaculous/demos/wallabag)) - удобный сервис для сохранения страниц для последующего чтения. Контент полностью копируется в базе сервиса вместе со стилями и скриптами.
 
-- Bookmarks
+- [Bookmarks](https://github.com/devimust/easy-bookmark-manager) ([демо - admin/nimda](http://bookmarkdemo.miceli.click/)) - простой сервис для хранения закладок на страницы. Поддерживается система тегов с ранжированием, категории, импорт и экспорт.
 
 ### Централизация
 
@@ -102,14 +102,15 @@
 
 - [converse.js](https://github.com/jcbrand/converse.js) ([офсайт](https://conversejs.org/), [демо](https://conversejs.org/demo/)) - простой Jabber-клиент, который можно интегрировать в любую страницу. В качестве сервера можно использовать как свой, так и любой другой посторонний. [Пример настройки на русском](https://habrahabr.ru/post/249731/).
 
-- KiwiIRC
+- [KiwiIRC](https://github.com/pereval-team/KiwiIRC) ([офсайт](https://kiwiirc.com/), [демо](https://kiwiirc.com/client))
 
 #### Ведение задач
 
-- Wekan
+- [Wekan](https://github.com/wekan/wekan)
 
-- Taskboard
+- [Restya](https://github.com/RestyaPlatform/board/)
 
-- Kanboard
+- [Taskboard](https://github.com/kiswa/TaskBoard)
 
-- Restya
+- [Kanboard](https://github.com/kanboard)
+
