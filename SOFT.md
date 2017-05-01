@@ -42,9 +42,9 @@
 
 - [Spiderfoot](https://github.com/smicallef/spiderfoot) ([офсайт](http://www.spiderfoot.net/)) - сервис для автоматизации OSINT по многим направлениям: IP, DNS, почтовые ящики, базы ИБ. Поддерживается получение данных из более чем 50 источников. Доступна функциональность визуализации результатов.
 
-- [Intrigue](https://github.com/intrigueio/intrigue-core) ([офсайт](https://intrigue.io/))
+- [Intrigue](https://github.com/intrigueio/intrigue-core) ([офсайт](https://intrigue.io/)) - удобный сервис для проведения выполнения различных задач в рамках разведки сетей и поиска. Полностью асинхронное выполнение заданий, сохранение всех результатов и их внутренняя линковка, визуализация.
 
-- [Openwebspider](https://github.com/pereval-team/openwebspider) ([офсайт](http://www.openwebspider.org/))
+- [Openwebspider](https://github.com/pereval-team/openwebspider) ([офсайт](http://www.openwebspider.org/), [демо](http://lab.openwebspider.org/)) - асинхронный краулер-индексатор страниц. Сохраняет проиндексированное текстовое содержимое, позволяя затем выполнять по нему поиск и просматривать связи между страницами.
 
 ### Записи
 
@@ -52,9 +52,9 @@
 
 - [dokuwiki](https://github.com/splitbrain/dokuwiki) ([офсайт](https://www.dokuwiki.org/), [демо](https://www.dokuwiki.org/)) - простой, но достаточно мощный вики-движок, который может быть использован для создания любой документации. Для хранения страниц используются текстовые файлы, а не база данных, что обеспечивает минимальные требования (только PHP) и поддержку любых кодировок. 
 
-- [XWiki](https://github.com/xwiki/xwiki-platform)
+- [PmWiki](https://github.com/svn2github/pmwiki/tree/master/trunk) ([офсайт](http://www.pmwiki.org/), [демо](http://www.pmwiki.org/wiki/Main/WikiSandbox)) - минималистичный вики-движок, не использующий базу данных для хранения информации. Поддерживает полную кастомизируемость визуального интерфейса, почти полностью самогенерируема на основе шаблонов.
 
-- [PmWiki](https://github.com/svn2github/pmwiki/tree/master/trunk)
+- [XWiki](https://github.com/xwiki/xwiki-platform) ([офсайт](http://www.xwiki.org/xwiki/bin/view/Main/WebHome), [демо](http://playground.xwiki.org/xwiki/bin/view/Main/WebHome)) - вики-сервис второго поколения, представляющий собой целую платформу для структуризации информации. Имеются визуальные редакторы и большое количество разнообразных расширений. 
 
 #### Текст 
 
