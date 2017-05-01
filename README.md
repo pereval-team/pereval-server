@@ -44,3 +44,5 @@ cd pereval-server && sudo docker-compose up --build
 - Проработать вариант единой авторизации через LDAP
 
 - Доработать [pereval-dash](https://github.com/pereval-team/pereval-dash) для отображения базовых сведений по сервисам
+
+- Подумать над средством конфигурации компактного docker-compose файла из набора требуемых сервисов
