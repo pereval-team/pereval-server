@@ -58,19 +58,19 @@
 
 #### Текст 
 
-- [Hackpad](https://github.com/dropbox/hackpad) ([офсайт](https://hackpad.com/), [демо](https://hackpad.com/Hackpad-Media-Embed-Demo-oLn1PFq0H7P))
+- [Hackpad](https://github.com/dropbox/hackpad) ([офсайт](https://hackpad.com/), [демо](https://hackpad.com/Hackpad-Media-Embed-Demo-oLn1PFq0H7P)) - сервис, официально позиционирующий себя как совместно редактируемую в реальном времени вики-подобную платформу. Поддерживается вставка изображений, таблиц, предпросмотр ссылок на популярные сервисы.
 
 - [Paperwork](https://github.com/twostairs/paperwork) ([офсайт](http://paperwork.rocks/), [демо 1](https://oasis.sandstorm.io/appdemo/vxe8awcxvtj6yu0vgjpm1tsaeu7x8v8tfp71tyvnm6ykkephu9q0), [демо 2 - cloudron/cloudron](https://my-demo.cloudron.me/)) - сервис для хранения заметок, аналог Evernote, Microsoft OneNote, Google Keep.
 
 - [CryptPad](https://github.com/xwiki-labs/cryptpad) ([офсайт](http://cryptpad.fr/), [демо](https://cryptpad.fr/pad/)) - сервис для хранения и совместного редактирования текста, программного кода, создание опросников, презентаций, досок для рисования. Возможно создавать ссылки только на просмотр. В основе используется технология блокчейна.
 
-- [Etherpad](https://github.com/ether/etherpad-lite) ([офсайт](http://etherpad.org/), [демо](https://demo.sandstorm.io/appdemo/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60))
+- [Etherpad](https://github.com/ether/etherpad-lite) ([офсайт](http://etherpad.org/), [демо](https://demo.sandstorm.io/appdemo/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60)) - популярный сервис для совместного редактирования текста. Поддерживаются простые операции форматирования, сохранение истории, встроенные чаты, экспорт в различные форматы.
 
 #### Таблицы
 
-- [EtherCalc](https://github.com/audreyt/ethercalc) ([офсайт](https://ethercalc.net/), [демо](https://ethercalc.org/_new))
+- [EtherCalc](https://github.com/audreyt/ethercalc) ([офсайт](https://ethercalc.net/), [демо](https://ethercalc.org/_new)) - удобный продвинутый сервис для совместного редактирования таблиц. Поддерживаются все базовые функции табличных редакторов.
 
-- [Ethersheet](https://github.com/ethersheet-collective/EtherSheet) ([офсайт](https://ethersheet.org/))
+- [Ethersheet](https://github.com/ethersheet-collective/EtherSheet) ([офсайт](https://ethersheet.org/)) - чрезвычайно простой сервис для совместного редактирования таблиц.
 
 #### Схемы
 
@@ -80,7 +80,7 @@
 
 #### Файлы
 
-- [Nextcloud](https://github.com/nextcloud/) ([офсайт](https://nextcloud.com/), [демо](https://demo.nextcloud.com/)) - актуальный полностью свободный форк популярного сервиса облачного хранения файлов ownCloud. 
+- [Nextcloud](https://github.com/nextcloud/) ([офсайт](https://nextcloud.com/), [демо](https://demo.nextcloud.com/)) - актуальный полностью свободный форк популярного сервиса облачного хранения файлов ownCloud. Поддерживается совместная работа с файлами, большое количество плагинов, мобильные приложения и многое другое.
 
 #### Веб-контент
 
@@ -106,11 +106,11 @@
 
 #### Ведение задач
 
-- [Wekan](https://github.com/wekan/wekan)
+- [Wekan](https://github.com/wekan/wekan) ([офсайт](https://wekan.github.io/), [демо](https://oasis.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h)) - свободный аналог [Trello](trello.com), поддерживаются вся основная функциональность, HTML5-интерфейс.
 
-- [Restya](https://github.com/RestyaPlatform/board/)
+- [Restya](https://github.com/RestyaPlatform/board/) ([офсайт](http://restya.com/board/), [демо - user/restya](http://board.demo.restya.com/)) - аналог Trello с HTML5-интерфейсом, ориентированный на замену средств коммуникации и взаимодействия в компаниях с разделением на команды.
 
-- [Taskboard](https://github.com/kiswa/TaskBoard)
+- [Kanboard](https://github.com/kanboard) ([офсайт](https://kanboard.net/)) - простой таск-трекер для отслеживания задач и их представления, больше подходит для команд разработки.
 
-- [Kanboard](https://github.com/kanboard)
+- [Taskboard](https://github.com/kiswa/TaskBoard) ([офсайт](https://taskboard.matthewross.me/), [демо - demo/demo](https://taskboard.matthewross.me/demo/#/)) - тривиальный канбан-тасктрекер с разделением на три категории, простой неинтерактивный интерфейс.
 
