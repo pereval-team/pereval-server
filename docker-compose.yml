@@ -18,54 +18,92 @@ services:
 
 ###########
 
-  intrigue-web:
-    build: https://github.com/pereval-team/intrigue-core.git
-    ports:
-      - "83:7777"
-    links:
-      - redis
-      - postgres
-    environment:
-      - INTRIGUE_ENV=docker
-      - REDIS_URI=redis://redis:6379/
+#  intrigue-web:
+#    build: https://github.com/intrigueio/intrigue-core.git
+#    ports:
+#      - "83:7777"
+#    links:
+#      - redis
+#      - postgres
+#    environment:
+#      - INTRIGUE_ENV=docker
+#      - REDIS_URI=redis://redis:6379/
 
+#TO TEST
 #  intrigue:
 #    build:
-#      context: ./intrigue-core
+#      context: ./intrigue
 #    ports:
 #      - "83:7777"
 
+#relies on dokuwiki
+#  ivre:
+
+# fail
   dashboard:
      build: 
        context: ./pereval-dash
      ports:
        - "86:9090" 
 
+# checked
   cyberchef:
     image: mpepping/cyberchef
     ports:
       - "82:8000"  
 
+# checked
   openwebspider:
     image: pantyusha/openwebspider
     ports:
       - "81:9999"
 
-#  spiderfoot:
-#    build: https://github.com/smicallef/spiderfoot.git
-#    ports:
-#      - "85:8080"
+# checked
+  spiderfoot:
+    build: https://github.com/smicallef/spiderfoot.git
+    ports:
+      - "85:8080"
 
+# http://localhost:84/wisemapping/c/login
   wisemapping:
     image: wisemapping/webapp
     ports:
-      - "84:8000"
+      - "84:8080" # might go overdriven by spiderfoot?
 
+# checked, works after a while
   etherpad:
     build:
       context: ./etherpad-lite
     ports:
-      - "88:9001"
+      - "89:9001"
+
+# checked
+#TODO: check where docs lie; study redis
+  ethercalc:
+    image: audreyt/ethercalc
+    ports:
+      - "90:8000" #doesnt override anything!
+    links:
+      - redis
+
+# checked
+  shaarli:
+    image: shaarli/shaarli
+    ports:
+      - "91:80" 
+
+
+  hackpad:
+    build:
+      context: ./hackpad
+    ports:
+      - "92:9000" 
+
+# /app/docker-runner.sh: line 16: mysqladmin: command not found
+#  paperwork:
+#    image: conoria/paperwork
+#    ports: 
+#      - "93:80"
 
 volumes:
-  db-data:
+ db-data:
