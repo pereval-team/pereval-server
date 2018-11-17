@@ -60,7 +60,7 @@ services:
 
 # checked
   spiderfoot:
-    build: https://github.com/smicallef/spiderfoot.git
+    build: https://github.com/smicallef/spiderfoot.git#v2.12.0-final
     ports:
       - "85:8080"
 
@@ -94,8 +94,7 @@ services:
 
 
   hackpad:
-    build:
-      context: ./hackpad
+    build: https://github.com/dropbox/hackpad.git#da0b3dbc3525cd3094c52975d11817ab30087ac9
     ports:
       - "92:9000" 
 
