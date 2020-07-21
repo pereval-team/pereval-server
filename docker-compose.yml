@@ -8,6 +8,7 @@ services:
       - "5432"
     environment:
       - POSTGRES_DB=intriguedb
+      - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
       - "db-data:/var/lib/postgresql/data"
 
